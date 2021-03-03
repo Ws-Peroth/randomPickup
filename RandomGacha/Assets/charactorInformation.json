@@ -1,0 +1,132 @@
+{
+  "charactorListWithRarity": [
+    {
+      "charactor": [
+        {
+          "Name": "Com_A",
+          "HavingCount": 233
+        },
+        {
+          "Name": "Com_B",
+          "HavingCount": 214
+        },
+        {
+          "Name": "Com_C",
+          "HavingCount": 198
+        },
+        {
+          "Name": "Com_D",
+          "HavingCount": 202
+        },
+        {
+          "Name": "Com_E",
+          "HavingCount": 217
+        }
+      ]
+    },
+    {
+      "charactor": [
+        {
+          "Name": "Rar_F",
+          "HavingCount": 135
+        },
+        {
+          "Name": "Rar_G",
+          "HavingCount": 95
+        },
+        {
+          "Name": "Rar_H",
+          "HavingCount": 138
+        },
+        {
+          "Name": "Rar_I",
+          "HavingCount": 131
+        },
+        {
+          "Name": "Rar_J",
+          "HavingCount": 117
+        }
+      ]
+    },
+    {
+      "charactor": [
+        {
+          "Name": "Epi_K",
+          "HavingCount": 75
+        },
+        {
+          "Name": "Epi_L",
+          "HavingCount": 64
+        },
+        {
+          "Name": "Epi_M",
+          "HavingCount": 92
+        },
+        {
+          "Name": "Epi_N",
+          "HavingCount": 71
+        },
+        {
+          "Name": "Epi_O",
+          "HavingCount": 74
+        }
+      ]
+    },
+    {
+      "charactor": [
+        {
+          "Name": "LEG_P",
+          "HavingCount": 62
+        },
+        {
+          "Name": "LEG_Q",
+          "HavingCount": 64
+        },
+        {
+          "Name": "LEG_R",
+          "HavingCount": 20
+        },
+        {
+          "Name": "LEG_S",
+          "HavingCount": 17
+        },
+        {
+          "Name": "LEG_T",
+          "HavingCount": 12
+        }
+      ]
+    },
+    {
+      "charactor": [
+        {
+          "Name": "EV_PickUp_A",
+          "HavingCount": 21
+        },
+        {
+          "Name": "EV_PickUp_B",
+          "HavingCount": 19
+        },
+        {
+          "Name": "EV_LEG_P",
+          "HavingCount": 4
+        },
+        {
+          "Name": "EV_LEG_Q",
+          "HavingCount": 3
+        },
+        {
+          "Name": "EV_LEG_R",
+          "HavingCount": 5
+        },
+        {
+          "Name": "EV_LEG_S",
+          "HavingCount": 4
+        },
+        {
+          "Name": "EV_LEG_T",
+          "HavingCount": 3
+        }
+      ]
+    }
+  ]
+}
