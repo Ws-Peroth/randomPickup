@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Linq;
 using System.IO;
 using System.ComponentModel;
@@ -9,7 +10,11 @@ using UnityEngine.SceneManagement;
 
 public class PickUp : MonoBehaviour
 {
+    public Text count;
+    public Text havingCharactorText;
+
     int minRarity = 1;
+    int maxRarity = 5;
 
     int commonRarity = 1;
     int rareRarity = 2;
@@ -68,6 +73,7 @@ public class PickUp : MonoBehaviour
         string[] charactorList_Common = new string[] { "Com_A", "Com_B", "Com_C", "Com_D", "Com_E" };
         string[] charactorList_Rare = new string[] { "Rar_F", "Rar_G", "Rar_H", "Rar_I", "Rar_J" };
         string[] charactorList_Epic = new string[] { "Epi_K", "Epi_L", "Epi_M", "Epi_N", "Epi_O" };
+
         string[] charactorList_Legendary = new string[] { "LEG_P", "LEG_Q", "LEG_R", "LEG_S", "LEG_T" };
         string[] charactorList_PickupLegendary = new string[] { "EV_PickUp_A", "EV_PickUp_B", "EV_LEG_P", "EV_LEG_Q", "EV_LEG_R", "EV_LEG_S", "EV_LEG_T" };
 
@@ -244,9 +250,51 @@ public class PickUp : MonoBehaviour
 
     }
 
+    public void ResetPickup()
+    {
+        if (File.Exists(path))
+        {
+            try
+            {
+                File.Delete(path);
+            }catch(IOException e)
+            {
+                print(e.Message);
+                return;
+            }
+        }
+
+        InitData();
+
+        pickupCount = 0;
+        pickupEventCount = 0;
+        picktryEvent = 0;
+        picktry = 0;
+
+    }
+
+    public void ShowHavingCharactorList()
+    {
+        string[] rarityName = new string[] { "Common","Rare","Epic","Legend","Event Legend" };
+
+        var loadJson = File.ReadAllText(path);
+        CharactorPool havingCharactor = JsonConvert.DeserializeObject<CharactorPool>(loadJson);
+
+        for(int i = 0; i < maxRarity; i++)
+        {
+
+        }
+
+    }
+
     void Start()
     {
         InitData();
+    }
+
+    private void Update()
+    {
+        count.text = "상시 뽑기 : " + pickupCount + "\n이벤트 뽑기 : " + picktryEvent;
     }
 }
 

@@ -4,23 +4,23 @@
       "charactor": [
         {
           "Name": "Com_A",
-          "HavingCount": 233
+          "HavingCount": 136
         },
         {
           "Name": "Com_B",
-          "HavingCount": 214
+          "HavingCount": 140
         },
         {
           "Name": "Com_C",
-          "HavingCount": 198
+          "HavingCount": 148
         },
         {
           "Name": "Com_D",
-          "HavingCount": 202
+          "HavingCount": 135
         },
         {
           "Name": "Com_E",
-          "HavingCount": 217
+          "HavingCount": 138
         }
       ]
     },
@@ -28,23 +28,23 @@
       "charactor": [
         {
           "Name": "Rar_F",
-          "HavingCount": 135
+          "HavingCount": 67
         },
         {
           "Name": "Rar_G",
-          "HavingCount": 95
+          "HavingCount": 64
         },
         {
           "Name": "Rar_H",
-          "HavingCount": 138
+          "HavingCount": 70
         },
         {
           "Name": "Rar_I",
-          "HavingCount": 131
+          "HavingCount": 67
         },
         {
           "Name": "Rar_J",
-          "HavingCount": 117
+          "HavingCount": 80
         }
       ]
     },
@@ -52,23 +52,23 @@
       "charactor": [
         {
           "Name": "Epi_K",
-          "HavingCount": 75
+          "HavingCount": 58
         },
         {
           "Name": "Epi_L",
-          "HavingCount": 64
+          "HavingCount": 36
         },
         {
           "Name": "Epi_M",
-          "HavingCount": 92
+          "HavingCount": 43
         },
         {
           "Name": "Epi_N",
-          "HavingCount": 71
+          "HavingCount": 55
         },
         {
           "Name": "Epi_O",
-          "HavingCount": 74
+          "HavingCount": 48
         }
       ]
     },
@@ -76,23 +76,23 @@
       "charactor": [
         {
           "Name": "LEG_P",
-          "HavingCount": 62
+          "HavingCount": 0
         },
         {
           "Name": "LEG_Q",
-          "HavingCount": 64
+          "HavingCount": 2
         },
         {
           "Name": "LEG_R",
-          "HavingCount": 20
+          "HavingCount": 3
         },
         {
           "Name": "LEG_S",
-          "HavingCount": 17
+          "HavingCount": 3
         },
         {
           "Name": "LEG_T",
-          "HavingCount": 12
+          "HavingCount": 2
         }
       ]
     },
@@ -100,31 +100,31 @@
       "charactor": [
         {
           "Name": "EV_PickUp_A",
-          "HavingCount": 21
+          "HavingCount": 2
         },
         {
           "Name": "EV_PickUp_B",
-          "HavingCount": 19
+          "HavingCount": 0
         },
         {
           "Name": "EV_LEG_P",
-          "HavingCount": 4
+          "HavingCount": 0
         },
         {
           "Name": "EV_LEG_Q",
-          "HavingCount": 3
+          "HavingCount": 1
         },
         {
           "Name": "EV_LEG_R",
-          "HavingCount": 5
+          "HavingCount": 1
         },
         {
           "Name": "EV_LEG_S",
-          "HavingCount": 4
+          "HavingCount": 0
         },
         {
           "Name": "EV_LEG_T",
-          "HavingCount": 3
+          "HavingCount": 1
         }
       ]
     }
